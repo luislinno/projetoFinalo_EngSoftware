@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      
+    <!--Iconic CSS-->
+      
+    <link href="iconic/font/css/open-iconic-bootstrap.css"  rel="stylesheet">
+      
+    <!--Fontwaesome CSS-->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+     <!-- Favicon -->
+
+    <link rel="shortcut icon" href="../Projeto Engenharia de Software/img/logo.png">
+
+    <!--Código-->
+    
+    <script lang="JavaScript" src="js/codigo.js"></script>
+
+    <script lang="JavaScript" src="log.js"></script>
+
+
+
+
+    
+    <title>Pizza Line - Cardápio</title>
+      
+  </head>
+  <body style="background-image: url(img/papel-parede.png)">
+    
+    <header><!--Cabeçalho Inicio-->
+        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-danger"><!--Navegação Inicio-->
+            <div>
+                <a href=""><img src="img/logo.png" width=100px></a>
+            </div><!--Logo-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!--Navegação-->
+            <div class="collapse navbar-collapse" id="nav-target">
+                
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                        <a class="nav-link" href="index.html">Pagina Inicial</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link"  href="cardapio.html">Cardápio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="">Cadastro</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link" href="">Ajuda</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav> <!--Navegação Final-->
+        </header><!--Cabeçalho Final-->
+        
+        <div id="container">
+            <div class="card-columns mt-2 ml-1 mr-1">
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/mussarela.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de Mussarela</h4>
+                        <p class="card-text">Deliciosa Pizza de Mussarela</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="mussarela" id="mussarela">
+                            <option value="mussarela-pequeno">Pequena - R$ 40</option>  
+                            <option value="mussarela-medio">Média - R$ 60</option> 
+                            <option value="mussarela-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" id="compra-mussarela" value="compra-mussarela">COMPRAR</button>
+                    </div>
+
+                </div>
+                
+                 <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/calabresa.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de Calabresa</h4>
+                        <p class="card-text">Deliciosa Pizza de Calabresa</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="calabresa" id="calabresa">
+                            <option value="calabresa-pequeno">Pequena - R$ 40</option>  
+                            <option value="calabresa-medio">Média - R$ 60</option> 
+                            <option value="calabresa-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" href="#">COMPRAR</button>
+                    </div>
+                </div>
+                
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/48448-pizza_frango_com_catupiry.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de Frango com Catupiry</h4>
+                        <p class="card-text">Deliciosa Pizza de Frango com Catupiry</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="frango-catupiry" id="frango-catupiry>
+                            <option value="frango-pequeno">Pequena - R$ 40</option>  
+                            <option value="frango-medio">Média - R$ 60</option> 
+                            <option value="frango-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" href="#">COMPRAR</button>
+                    </div>
+                </div>
+                
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/bacon.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de Bacon</h4>
+                        <p class="card-text">Deliciosa Pizza de Bacon</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="bacon" id="bacon">
+                            <option value="bacon-pequeno">Pequena - R$ 40</option>  
+                            <option value="bacon-medio">Média - R$ 60</option> 
+                            <option value="bacon-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" href="#">COMPRAR</button>
+                    </div>
+                </div>
+                
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/receitas-de-pizza-de-pepperoni-0.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de Pepperoni</h4>
+                        <p class="card-text">Deliciosa Pizza de Pepperoni</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="pepperoni" id="pepperoni">
+                            <option value="pepperoni-pequeno">Pequena - R$ 40</option>  
+                            <option value="pepperoni-medio">Média - R$ 60</option> 
+                            <option value="pepperoni-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" href="#">COMPRAR</button>
+                    </div>
+                </div>
+                
+                <div class="card text-white bg-dark">
+                    <img class="card-img-top" src="img/shutterstock_634857755-659x371.png" width="750" height="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Pizza de 5 Queijos</h4>
+                        <p class="card-text">Deliciosa Pizza de 5 Quejos</p>
+                        <label for="estados">Selecione o Tamanho</label>
+                        <select class="form-control mt-2" name="5-queijos" id="cinco-queijo">
+                            <option value="cincoQueijo-pequeno">Pequena - R$ 40</option>  
+                            <option value="cincoQueijo-medio">Média - R$ 60</option> 
+                            <option value="cincoQueijo-grande">Grande - R$ 80</option> 
+                        </select>
+                        <button class="btn btn-success mt-2 w-100" href="#">COMPRAR</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      
+        <footer class="bg-danger text-center">
+            <div>
+                <div>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="">Restaurantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="">Pesquisa de Satisfação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="">Termos de Uso</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="text-light">© Todos os Direitos Reservados</span>
+            </div>
+        </footer>
+    
+      
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
